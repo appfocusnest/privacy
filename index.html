@@ -1,49 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Focus Nest</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 40px 20px; max-width: 800px; margin: auto; color: #333; }
-        h1 { color: #1a1a1a; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
-        h2 { color: #2c3e50; margin-top: 25px; }
-        p, li { color: #555; }
-        .contact { background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 30px; border-left: 4px solid #ffd700; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; color: #000; }
+        h2 { margin-top: 30px; color: #222; font-size: 1.25rem; }
+        p { margin: 10px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .last-updated { color: #666; font-size: 0.85rem; margin-bottom: 30px; }
+        a { color: #0066cc; text-decoration: underline; }
+        section { margin-bottom: 40px; }
+        .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.9rem; }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p><strong>Last Updated: 08.03.2026</strong></p>
 
-    <h2>1. Introduction</h2>
-    <p>Focus Nest ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we treat information when you use our mobile application.</p>
+    <h1>Privacy Policy for Focus Nest</h1>
+    <p class="last-updated">Last Updated: 08.03.2024</p>
 
-    <h2>2. Data Collection & Usage</h2>
-    <p><strong>Personal Data:</strong> Focus Nest does not collect, store, or transmit any personal identification information (such as your name, email address, or phone number) to our servers.</p>
-    <p><strong>Local Data:</strong> All your focus sessions, settings, and "Elite" status are stored locally on your device. We do not have access to this data.</p>
-    <p><strong>Payment Data:</strong> All financial transactions are processed securely by Google Play Billing. We do not collect or store your credit card or bank details.</p>
+    <section>
+        <h2>1. Introduction</h2>
+        <p>Focus Nest ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we treat information when you use our mobile application. Focus Nest is designed as a "Privacy First" app, meaning we prioritize keeping your data on your device.</p>
+    </section>
 
-    <h2>3. Third-Party Services (Advertising)</h2>
-    <p>Our app uses Google AdMob to display advertisements to users in the Free version. AdMob may collect and use service-related information:</p>
-    <ul>
-        <li>Google's advertising ID from your device.</li>
-        <li>Cookies and usage data to personalize ads.</li>
-    </ul>
+    <section>
+        <h2>2. Data Collection & Usage</h2>
+        <p><strong>Personal Data:</strong> Focus Nest does not collect, store, or transmit any personal identification information (such as your name, email address, or phone number) to our servers. We do not require account registration.</p>
+        <p><strong>Local Data:</strong> All your focus sessions, statistics, and settings are stored locally on your device using standard platform storage. We do not have access to this data, and it is not backed up to our servers.</p>
+        <p><strong>Location Data:</strong> Focus Nest does not collect, use, or share your precise or approximate geographical location.</p>
+        <p><strong>Device Information:</strong> We may access basic, non-identifiable device information (such as model and OS version) through Capacitor plugins to ensure technical compatibility and performance.</p>
+    </section>
 
-    <h2>4. Analytics</h2>
-    <p>We may use basic, anonymous analytics to understand how many users use the app. This data is fully anonymized and does not identify you.</p>
+    <section>
+        <h2>3. Payments & Subscriptions</h2>
+        <p>Transactions are processed securely via Google Play Billing. We use <strong>RevenueCat</strong> to manage subscriptions. While RevenueCat processes transaction data, we do not have access to your financial details. RevenueCat provides us with anonymous lifecycle events to enable "Elite" features.</p>
+    </section>
 
-    <h2>5. User Rights (GDPR)</h2>
-    <p>If you are located in the EU, you have the right to access the data stored on your device or delete your data via the app settings.</p>
+    <section>
+        <h2>4. Third-Party Advertising</h2>
+        <p>Our app uses <strong>Google AdMob</strong> to display advertisements in the Free version. AdMob may collect and use service-related information:</p>
+        <ul>
+            <li>Google Advertising ID (AAID) for ad personalization and frequency capping.</li>
+            <li>Basic device telemetry for ad delivery and fraud prevention.</li>
+        </ul>
+        <p><em>Note: You can manage your ad preferences in your Android device settings (Settings > Google > Ads).</em></p>
+    </section>
 
-    <h2>6. Children's Privacy</h2>
-    <p>Focus Nest does not knowingly collect data from children under the age of 13.</p>
+    <section>
+        <h2>5. Data Retention & Deletion</h2>
+        <p>Because all progress data is stored locally on your device, we retain it only as long as the app is installed. You can permanently delete all local data at any time by using the "Reset Progress" feature in the app settings or by uninstalling the application.</p>
+    </section>
 
-    <div class="contact">
-        <h2>7. Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us at:<br>
-        <strong>Email: app.focusnest@gmail.com</strong></p>
+    <section>
+        <h2>6. Data Sharing & Security</h2>
+        <p>We do not sell or trade your data. We implement industry-standard security measures provided by the Android operating system (including Sandboxing and Local Storage encryption) to protect your information.</p>
+    </section>
+
+    <section>
+        <h2>7. Children's Privacy</h2>
+        <p>Focus Nest does not knowingly collect data from children under the age of 13. Our application is a productivity tool intended for a general audience.</p>
+    </section>
+
+    <section>
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+        <p>Email: <a href="mailto:app.focusnest@gmail.com">app.focusnest@gmail.com</a></p>
+    </section>
+
+    <div class="footer">
+        &copy; 2024 Focus Nest. All rights reserved.
     </div>
+
 </body>
 </html>
