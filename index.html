@@ -5,188 +5,216 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Focus Nest</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #27272a;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background-color: #ffffff;
+        :root {
+            --zinc-50: #f8f8f8;
+            --zinc-100: #f4f4f5;
+            --zinc-400: #a1a1aa;
+            --zinc-500: #71717a;
+            --zinc-800: #27272a;
+            --zinc-900: #18181b;
         }
-        h1 {
-            font-size: 24px;
-            font-weight: 300;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            border-bottom: 1px solid #f4f4f5;
-            padding-bottom: 20px;
-            margin-bottom: 40px;
+        body { 
+            font-family: 'Inter', -apple-system, system-ui, sans-serif; 
+            line-height: 1.7; 
+            color: var(--zinc-800); 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 60px 25px; 
+            background: #fff; 
         }
-        h1 span { color: #a1a1aa; }
-        h2 {
-            font-size: 13px;
-            font-weight: 700;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            margin-top: 40px;
-            margin-bottom: 15px;
-            color: #09090b;
+        h1 { 
+            font-weight: 300; 
+            font-size: 1.8rem;
+            letter-spacing: 0.15em; 
+            text-transform: uppercase; 
+            border-bottom: 1px solid var(--zinc-100); 
+            padding-bottom: 25px; 
+            margin-bottom: 40px; 
+            color: var(--zinc-900);
         }
-        h3 {
-            font-size: 14px;
-            font-weight: 600;
-            margin-top: 25px;
-            color: #18181b;
+        h2 { 
+            font-size: 0.95rem; 
+            font-weight: 700; 
+            letter-spacing: 0.1em; 
+            text-transform: uppercase; 
+            margin-top: 45px; 
+            color: var(--zinc-900);
+            border-left: 3px solid var(--zinc-900);
+            padding-left: 15px;
         }
-        p, li {
-            font-size: 14px;
+        h3 { 
+            font-size: 0.9rem; 
+            font-weight: 700; 
+            margin-top: 25px; 
+            color: var(--zinc-900); 
+        }
+        p, li { 
+            font-size: 0.95rem; 
             margin-bottom: 12px;
-            text-align: justify;
+            text-align: justify; 
         }
-        .last-updated {
-            font-size: 10px;
-            color: #a1a1aa;
-            text-transform: uppercase;
-            letter-spacing: 0.3em;
-            margin-bottom: 50px;
+        .date { 
+            font-size: 0.75rem; 
+            color: var(--zinc-400); 
+            text-transform: uppercase; 
+            letter-spacing: 0.2em; 
+            margin-bottom: 50px; 
         }
-        ul { padding-left: 20px; }
-        a {
-            color: #09090b;
-            text-decoration: underline;
-            text-underline-offset: 4px;
-            font-weight: 500;
+        ul { padding-left: 20px; margin-bottom: 20px; }
+        li { margin-bottom: 10px; list-style-type: square; }
+        a { 
+            color: var(--zinc-900); 
+            text-decoration: underline; 
+            text-underline-offset: 4px; 
         }
-        section { margin-bottom: 35px; }
-        strong { font-weight: 600; }
-        footer {
-            margin-top: 80px;
-            padding-top: 30px;
-            border-top: 1px solid #f4f4f5;
-            text-align: center;
-            font-size: 10px;
-            color: #a1a1aa;
-            text-transform: uppercase;
-            letter-spacing: 0.4em;
+        .badge {
+            background: var(--zinc-100);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.8rem;
+            vertical-align: middle;
+        }
+        footer { 
+            margin-top: 80px; 
+            padding-top: 30px; 
+            border-top: 1px solid var(--zinc-100); 
+            text-align: center; 
+            font-size: 0.75rem; 
+            color: var(--zinc-400); 
+            text-transform: uppercase; 
+            letter-spacing: 0.1em; 
+        }
+        @media (max-width: 640px) {
+            body { padding: 30px 20px; }
+            h1 { font-size: 1.4rem; }
         }
     </style>
 </head>
 <body>
 
-    <h1>Privacy Policy <span>Focus Nest</span></h1>
-    
-    <p class="last-updated">Last Updated: April 01, 2026</p>
+    <h1>Privacy Policy <span style="color: var(--zinc-400);">Focus Nest</span></h1>
+    <p class="date">Last Updated: April 19, 2026</p>
 
     <section>
         <h2>1. Data Controller</h2>
-        <p>
-            The data controller is <strong>Joanna Maleszka</strong>, an independent developer based in <strong>Poland</strong>, operating the Focus Nest application (“Controller”).
-        </p>
-        <p>Contact: <a href="mailto:app.focusnest@gmail.com">app.focusnest@gmail.com</a></p>
+        <p>The data controller is <strong>Joanna Maleszka</strong>, an independent developer based in <strong>Poland</strong>, operating the Focus Nest application (“Controller”).</p>
+        <p>📧 Contact: <a href="mailto:app.focusnest@gmail.com">app.focusnest@gmail.com</a></p>
     </section>
 
     <section>
-        <h2>2. Overview and "No-Account" Policy</h2>
-        <p>Focus Nest is a “Privacy First” application. <strong>Focus Nest does not require user accounts.</strong> No personal profiles are created or stored on our servers.</p>
+        <h2>2. No-Account Policy</h2>
+        <p>Focus Nest does not require user accounts. No registration is required and no user profiles are created. No server-side storage is used by the developer. Third-party services may process data on their own infrastructure. All core functionality operates without identity tracking.</p>
     </section>
 
     <section>
-        <h2>3. Data Collection and App Permissions</h2>
-        
-        <h3>3.1 Personal Data</h3>
-        <p>We do not collect your name, email address, phone number, or other directly identifying personal information.</p>
-        
-        <h3>3.2 Local Data Storage</h3>
-        <p>
-            All focus sessions, settings, and analytics (such as session duration and integrity scores) are stored locally on your device using Android system storage (e.g., SharedPreferences, WebView Local Storage). This data is not transmitted to our servers and remains under your control.
-        </p>
+        <h2>3. Data Processing Overview <span class="badge">Data Safety</span></h2>
+        <p>This section explicitly defines data categories for Google Play Data Safety compliance.</p>
 
-        <h3>3.2.1 System Backups</h3>
-        <p>If Android Backup is enabled, app data may be encrypted and stored within your personal Google Drive backup. The Controller does not access, control, or process these backups.</p>
-        
-        <h3>3.3 Android Permissions</h3>
+        <h3>3.1 Data NOT Collected by the App (App-controlled data)</h3>
+        <p>The App does NOT collect or transmit: Name, Email address, Phone number, Contacts, Precise location, Photos or files. No such data is processed by the Controller.</p>
+
+        <h3>3.2 Data Stored Locally on Device (NOT collected by the Controller)</h3>
+        <p>The following data is stored only on the user’s device: Focus session timers, App settings, Session statistics (e.g. duration, session completion status). This data is NOT transmitted to servers, NOT accessible by the developer, and NOT shared externally by the app code itself.</p>
+
+        <h3>3.3 Data Collected by Third Parties (Independent Controllers)</h3>
+        <p>Some data is processed by third-party SDKs acting as independent controllers:</p>
         <ul>
-            <li><strong>Foreground Service:</strong> To keep the timer active during background sessions.</li>
-            <li><strong>Exact Alarms:</strong> To trigger session completion at the precise scheduled time.</li>
-            <li><strong>Wake Lock & Full Screen Intent:</strong> To display completion screens on locked devices.</li>
-            <li><strong>Disable Keyguard:</strong> To allow stopping alarms without fully unlocking the device.</li>
-            <li><strong>Notifications:</strong> To deliver alerts and session completion reminders.</li>
-            <li><strong>Vibration:</strong> To provide haptic feedback for timer events.</li>
-            <li><strong>Network & Internet:</strong> Required for purchase validation and advertising services.</li>
-        </ul>
-
-        <h3>3.4 Technical Data & Identifiers</h3>
-        <p>
-            Certain technical information may be automatically processed by third-party SDKs to provide core services. This includes device model, OS version, Advertising ID (AAID), IP address, and purchase tokens. Usage statistics used for in-app analytics are processed <strong>locally</strong> on your device.
-        </p>
-    </section>
-
-    <section>
-        <h2>4. Third-Party Services & International Transfers</h2>
-        <p>The App uses the following third-party providers:</p>
-        <ul>
-            <li><strong>Google</strong> (Google Play Services, AdMob) – <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
-            <li><strong>RevenueCat</strong> (Purchase validation and licensing) – <a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a></li>
-        </ul>
-        <p>Data may be transferred to the United States. Such transfers rely on Standard Contractual Clauses (SCCs) and/or the EU-U.S. Data Privacy Framework to ensure a high level of data protection.</p>
-    </section>
-
-    <section>
-        <h2>5. Advertising Disclosure (Google AdMob)</h2>
-        <p>We display <strong>personalized ads</strong> through Google AdMob. This involves processing identifiers like the AAID and IP address for ad delivery and fraud prevention.</p>
-        <p>
-            For users in the European Union, consent is requested via Google UMP (IAB TCF 2.2). We honor <strong>Global Privacy Control (GPC)</strong> signals. You can opt out at any time via your device settings or Ad Preferences.
-        </p>
-    </section>
-
-    <section>
-        <h2>6. AI & Automated Decisions</h2>
-        <p>Focus Nest does not use your data for AI model training or automated decision-making with legal effects.</p>
-    </section>
-
-    <section>
-        <h2>7. Children’s Privacy</h2>
-        <p>The App is not intended for children under 13 (16 in EU). No personal data is knowingly collected. If identified, such data will be deleted immediately.</p>
-    </section>
-
-    <section>
-        <h2>8. Legal Basis (GDPR)</h2>
-        <ul>
-            <li><strong>Consent (Art. 6(1)(a) GDPR)</strong> – for personalized advertising.</li>
-            <li><strong>Contractual Necessity (Art. 6(1)(b) GDPR)</strong> – to provide and validate Elite premium features.</li>
-            <li><strong>Legitimate Interest (Art. 6(1)(f) GDPR)</strong> – for app functionality, fraud prevention, and security.</li>
+            <li><strong>Google AdMob:</strong> May process Advertising ID (AAID), IP address, Device identifiers, and Ad interaction data for ad delivery, fraud prevention, and analytics.</li>
+            <li><strong>RevenueCat:</strong> May process purchase receipts, transaction identifiers, and subscription status for validation and premium feature activation.</li>
         </ul>
     </section>
 
     <section>
-        <h2>9. User Rights</h2>
-        <p>Under GDPR, you have the right to access, rectify, or erase your data. Since most data is local, you can exercise these rights by clearing app storage or uninstalling the App.</p>
-        
-        <h3>California Privacy Rights (CCPA/CPRA)</h3>
-        <p>
-            We do not sell personal data. Certain advertising activities may be considered “sharing”. California residents may request access, deletion, or opt-out by contacting us at <a href="mailto:app.focusnest@gmail.com">app.focusnest@gmail.com</a>.
-        </p>
+        <h2>4. Data Sharing</h2>
+        <p>The App does not transmit data to developer-controlled servers. However, third-party SDKs (AdMob, RevenueCat) may collect and share data independently as described in their own policies.</p>
     </section>
 
     <section>
-        <h2>10. Data Retention</h2>
-        <p>Local data remains on your device until deletion. Third-party providers retain advertising and purchase data only as long as necessary under their respective policies.</p>
+        <h2>5. Android Permissions</h2>
+        <p>The App requests only necessary permissions for functionality:</p>
+        <ul>
+            <li><strong>Foreground Service</strong> – Timer operation in background.</li>
+            <li><strong>Exact Alarms</strong> – Precise session timing.</li>
+            <li><strong>Notifications</strong> – Session alerts.</li>
+            <li><strong>Wake Lock & Full Screen Intent</strong> – Completion display on locked devices.</li>
+            <li><strong>Vibration</strong> – Haptic feedback.</li>
+            <li><strong>Network & Internet</strong> – Ads and purchase validation.</li>
+        </ul>
     </section>
 
     <section>
-        <h2>11. RevenueCat Disclosure</h2>
-        <p>RevenueCat processes purchase receipts solely for license validation. No credit card information is collected by the Controller. RevenueCat acts as a data processor under GDPR.</p>
+        <h2>6. Advertising (Google AdMob Compliance)</h2>
+        <p>The App uses Google AdMob for ad personalization (only with consent), non-personalized ads, and fraud prevention.</p>
+        <p><strong>EU Consent:</strong> For users in the EEA, consent is collected via Google UMP (IAB TCF 2.2 framework). Users can accept or reject personalized ads. If consent is refused, only non-personalized ads are shown and the App remains fully usable.</p>
     </section>
 
     <section>
-        <h2>12. Data Security</h2>
-        <p>We use standard Android security mechanisms (sandboxing) and HTTPS/TLS encryption for all communications with third-party providers.</p>
+        <h2>7. Legal Basis (GDPR)</h2>
+        <p>Processing is based on:</p>
+        <ul>
+            <li><strong>Consent (Art. 6(1)(a))</strong> – For personalized advertising.</li>
+            <li><strong>Contract necessity (Art. 6(1)(b))</strong> – For premium feature activation.</li>
+            <li><strong>Legitimate interest (Art. 6(1)(f))</strong> – For security, fraud prevention, and app stability.</li>
+        </ul>
     </section>
 
     <section>
-        <h2>13. Changes to this Policy</h2>
-        <p>Updates may occur. Continued use of the App constitutes acceptance of the revised Policy. Latest version: <a href="https://appfocusnest.github.io/privacy/">appfocusnest.github.io/privacy/</a></p>
+        <h2>8. Data Retention</h2>
+        <p>Local data remains on device until deleted or app uninstall. No server-side storage is used by the developer. Third-party retention is governed by their privacy policies.</p>
+    </section>
+
+    <section>
+        <h2>9. Data Deletion</h2>
+        <p>Users may delete all local data by uninstalling the App or clearing app storage. No external deletion request is required because no server-side accounts exist.</p>
+    </section>
+
+    <section>
+        <h2>10. Children’s Privacy</h2>
+        <p>The App is not intended for children under 13 (or 16 in EU). No intentional data collection from minors occurs. If such data is identified by third-party systems, it will be deleted in accordance with applicable law.</p>
+    </section>
+
+    <section>
+        <h2>11. Third-Party Services</h2>
+        <ul>
+            <li>Google AdMob – <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+            <li>RevenueCat – <a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>12. International Data Transfers</h2>
+        <p>Data processed by third-party providers may be transferred outside the EEA (including the United States) under Standard Contractual Clauses (SCCs).</p>
+    </section>
+
+    <section>
+        <h2>13. Security Measures</h2>
+        <p>We apply Android application sandboxing, HTTPS/TLS encrypted communication with third parties, and minimal data collection principle.</p>
+    </section>
+
+    <section>
+        <h2>14. AI / Automated Decision-Making</h2>
+        <p>The App does NOT use AI to process personal data, perform automated decisions with legal effects, or use user data for machine learning training.</p>
+    </section>
+
+    <section>
+        <h2>15. User Rights (GDPR + CCPA)</h2>
+        <p>Users have the right to access personal data (if any exists in third-party systems), request deletion, restrict processing, or withdraw consent. Since the App does not use accounts, these rights are exercised via device controls or third-party provider settings. We do not sell personal data under California law (CCPA/CPRA).</p>
+    </section>
+
+    <section>
+        <h2>16. Data Safety Alignment Statement</h2>
+        <p>This policy is aligned with Google Play Data Safety disclosure requirements regarding collected, shared, and processed data.</p>
+    </section>
+
+    <section>
+        <h2>17. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy. Continued use of the App after changes indicates acceptance of the updated version.</p>
+    </section>
+
+    <section>
+        <h2>18. Contact</h2>
+        <p>📧 <a href="mailto:app.focusnest@gmail.com">app.focusnest@gmail.com</a></p>
     </section>
 
     <footer>
